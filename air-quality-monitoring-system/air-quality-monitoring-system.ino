@@ -33,7 +33,7 @@ void setColor(int redValue, int greenValue, int blueValue) {
 // Blinking Red LED
 void blinkRed() {
   setColor(255, 0, 0);
-  delay(150);
+  delay(350);
   setColor(0, 0, 0);
   delay(450);
 }
